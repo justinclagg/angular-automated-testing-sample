@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Automation Sample';
+  incrementedValue = 0;
+
+  IncrementValue() {
+    this.incrementedValue++;
+  }
+
 }
